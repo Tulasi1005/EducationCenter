@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educationcenter</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+  <style>
+
+
+.e-cont{
+      position: absolute;
+      top: 200px;
+    }
+
+
+.html{
+      position: absolute;
+      width: 200px;
+      margin-left: 480px;
+      font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+            text-decoration: underline;
+            color: rgb(122, 18, 220);
+    }
+
+    .h-eng{
+      /* display: inline; */
+      position: absolute;
+      left: 20px;
+      top: 70px;
+    }
+
+    .h-hin{
+      position: absolute;
+      left: 400px;
+      top: 70px;
+    }
+
+    .h-tel{
+      position: absolute;
+      left: 770px;
+      top: 70px;
+    }
+
+    .h-e{
+      position: absolute;
+      top: 370px;
+      left: 50px;
+      width: 250px;
+    }
+
+    .h-h{
+      position: absolute;
+      top: 370px;
+      left: 490px;
+      width: 250px;
+    }
+
+    .h-t{
+      position: absolute;
+      top: 370px;
+      left: 810px;
+      width: 250px;
+    }
+
+
+    .mark{
+        transform: rotate(180deg);
+        position: absolute;
+        left: 1210px;
+        top: 10px;
+        height: 780px;
+        width: 300px;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: blueviolet;
+      }
+      
+      marquee{
+      
+        transform: rotate(270deg);
+        font-family: "DM Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        color: whitesmoke;
+        position: absolute;
+        top: 590px;
+        left: -500px;
+        bottom: 0px;
+        /* top: 100; */
+        width: 1300px;
+        height: 100px;
+      }
+
+
+
+</style>
+
+</head>
+<body>
+  <div class="mynav">
+    <div class="line">
+      <a href="index.html"
+        ><img
+          src="images/logo.png"
+          alt="logo"
+          height="100px"
+          width="100px"
+          class="img"
+      /></a>
+
+      <nav>
+        <ul>
+          <div class="nav1">
+            <li class="navbar">
+              <a href="index.html"><b>Home</b></a>
+            </li>
+            <li class="navbar">
+              <a href="about.html"> <b>About</b></a>
+            </li>
+            <li class="navbar dropdown">
+              <a href="courses.html"><b>Courses<i class="fa fa-caret-down"></i></b></a>
+
+              <ul class="dropdown-menu">
+                <li class="drop-item"><a href="hvideo.html">HTML</a></li>
+                <li class="drop-item"><a href="cvideo.html">CSS</a></li>
+                <li class="drop-item"><a href="jvideo.html">Java Script</a></li>
+              </ul>
+            </li>
+            <li class="navbar">
+              <a href="contact.html"><b>Contact</b></a>
+            </li>
+            <li class="navbar">
+              <button><a href="login.html" class="login">Login</a></button>
+            </li>
+            <li class="navbar">
+              <button><a href="signin.html" class="sign">Signup</a></button>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="e-cont">
+    <div class="course"><h2 class="html">HTML COURSES</h2></div>
+  <div>
+    <iframe class="h-eng" width="360" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg?si=hy2fjyigl10iclr7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div>
+    <h4 class="h-e">HTML in English</h4>
+  </div>  
+  <div>
+    <iframe class="h-hin" width="360" height="315" src="https://www.youtube.com/embed/xS4ufEJB7CQ?si=FHKOz0LES5ikNGEC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div><h4 class="h-h">HTML in Hindi</h4>
+    
+  </div>
+
+  <div>
+    <iframe class="h-tel" width="360" height="315" src="https://www.youtube.com/embed/O_qSoULbCqQ?si=eWk45V0EF-W8vnlJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div>
+    <h4 class="h-t">HTML in Telugu</h4>
+  </div>
+
+
+</div>
+<div class="mark">
+  <marquee behavior="" direction="right">It's Time for learning &#128214;</marquee>
+</div>
+
+  <div>
+    <footer style="position: absolute; top: 750px;">
+        <div>
+        <div class="ed">
+            <b>Education Center</b>
+        </div>
+        <div class="copy">
+            Copyright &copy; 2023 educationcenter.com
+        </div>
+        <div class="social-media-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+    </footer>
+  </div>
+  <div></div>
+</div>
+
+
+
+</body>
+</html>

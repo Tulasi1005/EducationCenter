@@ -1,0 +1,140 @@
+
+
+.mynav {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 116px;
+    top: 0px;
+    position: fixed;
+    z-index: 20;
+    
+  }
+
+  .line {
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 100px;
+    width: 1200px;
+  }
+
+  .nav1 {
+    position: fixed;
+    left: 700px;
+    top: 50px;
+  }
+
+  .img {
+    position: fixed;
+    left: 20px;
+    top: 5px;
+    /* z-index: 10; */
+  }
+
+  .navbar {
+    display: inline;
+    padding: 10px;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .dropdown-menu{
+    position: absolute;
+    z-index: 10;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: none;
+}
+
+.drop-item{
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+  
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  button {
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    height: 35px;
+    width: 75px;
+    border-radius: 10px;
+  }
+
+  .login{
+    color: rgb(255, 255, 255);
+  }
+
+  .sign{
+    color: white;
+  }
+
+  .mark{
+        transform: rotate(180deg);
+        position: absolute;
+        left: 1210px;
+        top: 10px;
+        height: 1300px;
+        width: 300px;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: blueviolet;
+      }
+      
+      marquee{
+      
+        transform: rotate(270deg);
+        font-family: "DM Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        color: whitesmoke;
+        position: absolute;
+        top: 600px;
+        left: -500px;
+        bottom: 0px;
+        top: 100;
+        width: 1300px;
+        height: 100px;
+      }
+
+
+  footer{
+    position: absolute;
+    top: 1700px;
+  }
+
+  .ed{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    left: 0px;
+    width: 200px;
+    border-right: 1px solid grey;
+  }
+
+  .copy{
+    position: absolute;
+    display: inline;
+    left: 220px;
+    top: 0px;
+    width: 300px;
+    
+  }
+
+  .social-media-icons{
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    left: 1020px;
+    top: -10px;
+    width: 150px;
+  }
